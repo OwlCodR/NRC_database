@@ -1,0 +1,9 @@
+DROP TABLE subscribers_x_events;
+DROP TABLE events;
+DROP TABLE likes_x_posts;
+DROP TABLE biometrics;
+DROP TABLE trainings;
+DROP TABLE sport_types;
+DROP TABLE posts;
+DROP TABLE users_x_followers;
+DROP TABLE users;

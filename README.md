@@ -3,8 +3,8 @@
 > It's not real Nike's database but my vision of main concepts of it and how could be designed small part of it.
 
 ### 🚀 Tasks
-- [ ] Create database scheme
-- [ ] Make tables in PostgreSQL
+- [x] Create database scheme `chemas/`
+- [x] Make tables in PostgreSQL `database/`
 - [ ] Fill them with generated data
 - [ ] Make 15 SQL requests
 
