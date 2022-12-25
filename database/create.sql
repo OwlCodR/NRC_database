@@ -2,8 +2,8 @@ CREATE TABLE users (
 	"id" BIGSERIAL PRIMARY KEY,
 	"name" TEXT NOT NULL,
 	"surname" TEXT NOT NULL,
-	"sex" TEXT,
-	"birthday" TIMESTAMP NOT NULL
+	"gender" TEXT,
+	"birthday" DATE NOT NULL
 );
 
 CREATE TABLE users_x_followers (
@@ -16,7 +16,7 @@ CREATE TABLE posts (
 	"author" BIGINT NOT NULL REFERENCES users (id),
 	"title" TEXT,
 	"date" TIMESTAMP NOT NULL,
-	"content" TEXT
+	"subtitle" TEXT
 );
 
 CREATE TABLE sport_types (
@@ -56,10 +56,9 @@ CREATE TABLE events (
 	"author" BIGINT NOT NULL REFERENCES users (id),
 	"date" TIMESTAMP NOT NULL,
 	"title" TEXT,
-	"content" TEXT,
+	"subtitle" TEXT,
 	"start_date" TIMESTAMP NOT NULL,
 	"end_date" TIMESTAMP NOT NULL,
-	"location" TEXT,
 	"sport_type" BIGINT NOT NULL REFERENCES sport_types (id),
 	"latitude" REAL,
     "longitude" REAL
