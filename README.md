@@ -31,7 +31,7 @@
 - [x] `gender()` - Returns 'Male' or 'Female'
 - [x] `name()` - Returns random name
 - [x] `surname()` - Returns random name
-- [x] `sentence()` - Returns random sentence
+- [x] `sentence()` - Returns random sentence 
 - [x] `birthday()` - Returns random birthday date
 - [x] `paragraph(INT count)` - Returns random text with *count* sentences 
 - [x] `rand_int(INT min, INT max)` - Returns random int in range
