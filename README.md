@@ -25,14 +25,15 @@
 - `TEXT` Readable words and sentences like Lorem Ipsum
 - `REAL, INT` Random values in some ranges
 - `TIMESTAMP` Random from some period of time (with intervals)
-> I didn't find any light-weight and simple to install on MacOS libraries to generate fake data
-> But it's not so difficult, so I can do it by myself using functions
-- [ ] `pos()` - Returns random position (longitude or latitude) in New York
+> I didn't find any light-weight and simple to install on MacOS libraries to generate fake data.
+> But it's not so difficult, so I can do it by myself using SQL functions
+- [x] `pos()` - Returns random position (longitude or latitude)
 - [x] `gender()` - Returns 'Male' or 'Female'
-- [ ] `name()` - Returns random name
-- [ ] `sentence()` - Returns random sentence
+- [x] `name()` - Returns random name
+- [x] `surname()` - Returns random name
+- [x] `sentence()` - Returns random sentence
 - [x] `birthday()` - Returns random birthday date
-- [ ] `paragraph(INT count)` - Returns random text with *count* sentences 
+- [x] `paragraph(INT count)` - Returns random text with *count* sentences 
 - [x] `rand_int(INT min, INT max)` - Returns random int in range
 - [x] `rand_real(REAL min, REAL max)` - Returns random real in range
 - [x] `rand_timestamp(BOOLEAN future, INT min, INT max)` - Returns timestamp date in future or not with offset in range
@@ -50,5 +51,6 @@
 10. Get all calories by training
 
 ### 📦 I worked with
+- PgAdmin4
 - PostgreSQL
 - [DB Designer](https://app.dbdesigner.net)
