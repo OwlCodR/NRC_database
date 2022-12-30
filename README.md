@@ -43,14 +43,14 @@
 
 ### 📎 Make 15 SQL requests
 1. Get all followers by user id
-2. Get all users who liked post by id
-3. Get all trainings by sport type
-5. Get all users by event id
-6. Get all posts by title entry
-7. Get all posts by date
-8. Get all posts by author id
-9. Get all biometrics by training id and date 
-10. Get all calories by training
+2. Get name and surname of all users who liked post by id
+3. Get the post popular sport type
+4. Get all users by event id
+5. Get all posts by title entry
+6. Get the longest distance of the training
+7. Get authors of posts of the last 2 days
+8. Get posts count for the last week
+9. Get all biometrics by training id and date
 
 ### 📦 I worked with
 - PgAdmin4
