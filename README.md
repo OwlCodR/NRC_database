@@ -5,7 +5,7 @@
 ## 🚀 Tasks
 - [x] Create database scheme `chemas/`
 - [x] Make tables in PostgreSQL `database/`
-- [ ] Fill them with generated data
+- [x] Fill them with generated data
 - [ ] Make 15 SQL requests
 
 ### ✨ Create database scheme
