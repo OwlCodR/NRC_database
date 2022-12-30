@@ -38,6 +38,8 @@
 - [x] `rand_real(REAL min, REAL max)` - Returns random real in range
 - [x] `rand_timestamp(BOOLEAN future, INT min, INT max)` - Returns timestamp date in future or not with offset in range
 - [x] `rand_interval(BOOLEAN future, TEXT units, INT min, INT max)` - Returns random interval in range in future or not with units
+- [x] `rand_id_from(TEXT table, INT min, INT max, INT retries)` - Returns random id from table in range. If id does not exist will retry N times
+- [x] `biometrics(INT count, INT min, INT max)` - Fills biometrics table for `count` random trainings with N metrics in range
 
 ### 📎 Make 15 SQL requests
 1. Get all followers by user id
