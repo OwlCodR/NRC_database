@@ -30,8 +30,6 @@ SELECT name, surname FROM users WHERE id IN (
     WHERE date > (now() - '2 day'::INTERVAL)
 );
 
-SELECT * FROM subscribers_x_events GROUP BY event;
-
 -- Get info about the biggest event by amount of subscribers
 SELECT * FROM events WHERE id = (
 	WITH count_x_event AS (
@@ -63,7 +61,6 @@ WITH count_x_posts AS (
 -- 0 - Unsportsmanlike
 -- 1 <= n <= 4 - Amateur Athlete
 -- > 4 - Sportsman
-
 WITH followers_count_x_users AS (
     SELECT COUNT(follower), "user"
     FROM users_x_followers
