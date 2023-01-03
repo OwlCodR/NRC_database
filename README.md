@@ -41,7 +41,7 @@
 - [x] `rand_id_from(TEXT table, INT min, INT max, INT retries)` - Returns random id from table in range. If id does not exist will retry N times
 - [x] `biometrics(INT count, INT min, INT max)` - Fills biometrics table for *count* random trainings with N metrics in range
 
-### 📎 Make 15 SQL requests
+### 📎 Make 10 SQL requests
 1. Get all followers by user id
 2. Get posts count for the last week
 3. Get name and surname of all users who liked post by id
@@ -50,10 +50,10 @@
 6. Get authors of posts of the last 2 days
 7. Get info about the biggest event by amount of subscribers
 8. Get average amount of post likes of the user with max followers count
-9. Set status by trainings count for all followers of the user with max followers count
-`n == 0` - Unsportsmanlike
-`1 <= n <= 4` - Amateur Athlete
-`n > 4` - Sportsman
+9. Set status by trainings count for all followers of the user with max followers count:
+  - `n == 0` - Unsportsmanlike
+  - `1 <= n <= 4` - Amateur Athlete
+  - `n > 4` - Sportsman
 10. Get info about training with max heartrate for every user where training type is "Treadmill"
 
 ### 📦 I worked with
