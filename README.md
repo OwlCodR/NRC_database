@@ -41,7 +41,7 @@
 - [x] `rand_id_from(TEXT table, INT min, INT max, INT retries)` - Returns random id from table in range. If id does not exist will retry N times
 - [x] `biometrics(INT count, INT min, INT max)` - Fills biometrics table for *count* random trainings with N metrics in range
 
-### 📎 Make 15 SQL requests
+### 📎 Make 10 SQL requests
 1. Get all followers by user id
 2. Get posts count for the last week
 3. Get name and surname of all users who liked post by id
